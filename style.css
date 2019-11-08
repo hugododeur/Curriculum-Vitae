@@ -9,23 +9,24 @@ html, body {
     grid-auto-rows: minmax(60px, auto);
     background-color: #3b7fbe;
     height: 60px;
+    width: 900px;
     background-attachment: fixed;
   }
-  .normandiewebschool{
+  #normandiewebschool{
     width: 200px;
-    margin-left: 10px;
-    margin-top: 5px;
+    grid-column-start: 1;
+    align-self: center;
+    justify-self: center;
   }
 
-  .bouton-top{
-    grid-column-start: 1;
-    grid-column-end: 5;
-
+  #boutons-top{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    justify-self: center;
   }
   #fb{
       height: 60px;
       width: 60px;
-      
   }   
 
   #in{
@@ -38,5 +39,21 @@ html, body {
       width: 60px;
   }
   #Moi{
-    height: 200px;
+    height: 300px;
+    width: 400px;
+    border-radius: 200px;
   }
+
+  #titre1{
+   margin-left: 500px;
+   font-size: 20px;
+   text-align-last: center;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: #3b7fbe;
+
+}  
+
+ #img1{
+   height: 50px
+ }
+
