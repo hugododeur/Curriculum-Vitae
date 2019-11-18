@@ -25,10 +25,6 @@ body{
     grid-column-end: 5;
 }
 
-.liens{
-   
-}
-
 .imgsc{
     width: 40px;
     justify-self: center;
@@ -37,24 +33,24 @@ body{
 
 #photomoi{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 #moi{
     width: 100%;
-    grid-column-start: 1;
-    grid-column-end: 1;
     justify-self: center;
     align-self: center;
+    grid-row-start: 1;
+    grid-row-end: 1;
 }
 
 #paragraphe1{
     justify-self: center;
     align-self: center;
-    grid-column-start: 2;
-    grid-column-end: 2;
     padding: 5%;
-    font-size: 25px;
+    font-size: 20px;
+    grid-row-start: 2;
+    grid-row-end: 2;
 }
 
 #photocinéma{
@@ -72,13 +68,13 @@ body{
     justify-self: center;
     align-self: center;
     padding: 5%;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #photoadobe{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0,5fr 1fr;
     grid-gap: 10px;
 }
 
@@ -93,7 +89,7 @@ body{
     padding: 5%;
     grid-column-start: 1;
     grid-column-end: 3;
-    font-size: 25px;
+    font-size: 20px;
 
 }
 
@@ -106,6 +102,21 @@ body{
 #design{
     width: 100%;
     
+}
+
+.crédits{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; 
+    background: cornsilk;
+    height: 250px;
+    border-top: 2px solid #3b7fbe;
+}
+
+#créditcss{
+    justify-self: center;
+    align-self: center;
+
 }
 
 
